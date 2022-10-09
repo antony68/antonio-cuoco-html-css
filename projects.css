@@ -1,0 +1,540 @@
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+    
+}
+
+html {
+
+scroll-behavior: smooth;
+
+}    
+body {
+
+height: 100%;
+scroll-behavior: smooth;     
+    
+}
+       
+
+.container-header {
+
+background-color: #05299e;
+
+}
+
+#header-row {
+
+margin: 0;
+      
+
+}
+
+#columns-nav {
+
+height: 135px;
+margin:0;       
+
+}
+
+.image-logo-desktop{
+
+margin-top: 2 rem;
+margin-left: 2 rem;
+        
+
+}
+
+        
+
+.menu-item {
+
+color: white;
+font-size: 20px;
+padding: 10px;
+text-decoration: none;
+  
+}
+
+          
+.menu-item:hover {
+  
+color: white;
+background-color: #fc5f22;
+  
+}
+          
+.menu-item2{
+  
+color: white;
+font-size: 16px;
+padding: 2px;
+text-decoration: none;
+      
+}
+              
+.menu-item2:hover {
+      
+color: white;
+background-color: #fc5f22;
+      
+}
+                  
+.menu-item2:hover {
+          
+color: white;
+          
+}
+              
+ul {
+      
+display: flex;
+              
+      
+} 
+  
+        
+.container-navbar{
+
+display: flex;
+justify-content: flex-end;
+margin-top: 1.9rem;
+margin-right: 0 rem;
+
+}
+        
+.container-navbar2 {
+
+display: flex;
+align-items: flex-start;
+margin-top: 0px;
+margin-right: 7px;
+
+}
+
+.projects {
+
+background-color: #5e17eb;
+
+padding: 2.2rem 2rem;
+
+}
+
+.title-projects {
+
+color: white;
+font-size: 48px;
+text-align: center;
+
+}
+
+.area-projects {
+
+background-color: #05299e;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#card1 {
+
+width: 45rem;
+margin: 2.5rem 1.5rem;
+background-color: white;
+display: flex;
+flex-wrap: nowrap;
+
+}
+
+.img-card1{
+
+width: 400px;
+
+}
+
+.written-part {
+
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-left: 1.5rem;
+
+}
+
+.paragraph-written-part {
+
+
+
+}
+
+.button-written-part {
+
+width: 8rem;
+height: 2.5rem;
+margin-top: 18vw;
+margin-left: 8rem;
+background-color: #fc5f22;
+border: 1px solid #fc5f22;
+color: white;
+
+}
+
+.link-btn-written-part {
+
+color: white;
+background-color: #fc5f22;
+border: 1px solid #fc5f22;
+
+}
+
+.link-btn-written-part:hover {
+
+color: white;
+    
+}
+
+#card1-mobile {
+
+    width: 25rem;
+    margin: 2.5rem 1.5rem;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+    
+.img-card1-mobile{
+    
+    width: 60%;
+    
+}
+    
+.written-part-mobile {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1.5rem;
+    
+}
+
+.title-written-part{
+
+font-size: 30px;
+
+}
+    
+.paragraph-written-part-mobile {
+    
+    
+    
+}
+    
+.button-written-part-mobile {
+    
+    width: 6rem;
+    height: 2.5rem;
+    margin-top: 15.5rem;
+    margin-left: 2rem;
+    background-color: #fc5f22;
+    border: 1px solid #fc5f22;
+    color: white;
+    
+}
+    
+.link-btn-written-part-mobile {
+    
+    color: white;
+    background-color: #fc5f22;
+    border: 1px solid #fc5f22;
+    
+}
+    
+.link-btn-written-part-mobile:hover {
+    
+    color: white;
+        
+}
+
+.area-contact-me {
+
+    background-color: #05299e;
+    height: 350px;
+
+
+}
+
+#box-area-contact-me {
+
+    background-color: #5e17eb;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 45px;
+    
+
+}
+
+.title-area-contact-me {
+
+    color: white;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.subtitle-area-contact-me {
+
+    color: white;
+    text-align: center;
+
+}
+
+#box-area-contact-me2 {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #5e17eb;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 270px;
+
+}
+
+.input-name {
+
+    margin-top: 8px;
+    padding: 10px 0px;
+   
+
+}
+
+.input-surname {
+
+    margin-top: 15px;
+    padding: 10px 0px;    
+
+}
+
+.input-email{
+
+    margin-top: 15px;
+    padding: 10px 0px;
+        
+}
+
+.btn-contact-me {
+
+    margin-top: 15px;
+    padding: 10px 0px;
+    background-color: #fc5f22;
+    border: 1px #fc5f22 solid;
+    color: white;
+    width: 220px;
+    font-size: 16px;
+    
+
+
+}
+
+#box-area-contact-me-mobile {
+
+    background-color: #5e17eb;
+    margin-top: 25px;
+        
+
+}
+
+.title-area-contact-me-mobile {
+
+    color: white;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.subtitle-area-contact-me-mobile {
+
+    color: white;
+    text-align: center;
+
+}
+
+#box-area-contact-me2-mobile {
+
+        
+    background-color: #5e17eb;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.input-name-mobile {
+
+        
+padding: 5px 0px;
+       
+       
+}
+
+.input-surname-mobile {
+
+    padding: 5px 0px;
+    margin-top: 10px;
+          
+}
+
+.input-email-mobile{
+
+    margin-top: 10px;
+    padding: 5px 0px;
+            
+}
+  
+
+.btn-contact-me-mobile {
+
+    padding: 10px 0px;
+    background-color: #fc5f22;
+    border: 1px #fc5f22 solid;
+    color: white;
+    width: 220px;
+    margin: 10px auto;
+    font-size: 16px;
+
+}
+
+.area-footer {
+
+background-color:#5e17eb;
+
+}
+
+#footer-row {
+
+margin: 0;
+
+}
+
+.paragraph-footer {
+
+color: white;
+text-align: center;
+font-size: 18px;
+
+}
+    
+.paragraph-icon-by {
+
+color: white;
+text-align: center;
+font-size: 18px;
+
+}
+
+.link-footer {
+
+text-align: center;
+color: white;
+font-size: 20px;
+
+}
+
+.link-footer:hover {
+
+text-align: center;
+color: #fc5f22;
+
+}
+
+.paragraph-footer-designed-by {
+
+text-align: center;
+margin-top: 8px;
+color: white;
+font-size: 20px;
+
+}
+
+.designed-by-footer {
+
+color: #fc5f22;
+font-size: 22px;
+
+}
+
+.paragraph-footer-mobile {
+
+color: white;
+text-align: center;
+margin-top: 100px;
+
+}
+
+.paragraph-footer2 {
+
+font-size: 24px;
+color:white;
+text-align: center;
+
+}
+
+.social-icon {
+
+margin-left: 160px;
+padding: 0px 15px;
+
+}
+
+.social-icon2 {
+
+padding: 0px 15px;
+
+}
+
+#box-social-mobile {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.social-icon-mobile {
+   
+padding: 0px 10px;
+
+}
+
+
+
+
+::-webkit-scrollbar {
+
+width: 8px;
+border-radius: .25rem ;
+
+}
+
+::-webkit-scrollbar-track {
+
+background: #05299e;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+background: white;
+border-radius: .25rem;
+
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+background-color: #fc5f22;
+
+}
