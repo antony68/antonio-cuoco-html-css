@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="progetti.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__content">
+          <a class="header__logo" href="#">
+            <strong class="text-2">Antonio Cuoco</strong>
+          </a>
+          <ul class="header__menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#grid-two">Servizi</a></li>
+            <li><a href="#grid-progetti">Progetti</a></li>
+            <li><a href="https://99dev.it/">Blog</a></li>
+            <div class="socialBox2">
+              <a href=""><img src="icone social/icons8-instagram-64.svg" alt="" class="icon-social2 mt-3"></a>
+              <a href=""><img src="icone varie/icons8-github-64.svg" alt="" class="icon-social2 mt-3"></a>
+              <a href=""><img src="icone varie/icons8-linkedin-2-48.svg" alt="" class="icon-social2 mt-3"></a>
+            </div>
+            <div class="contatti">
+              <h3 class="text-2">CONTATTI</h3>
+              <label class="label-1" for="">Email: <p>99devstudio@gmail.com</p></label>
+              <label class="label-2" for="">Telefono: <p>3318941139</p></label>
+            </div>
+    
+          </ul>
+          <div class="header__quick">
+            <div class="icon-hamburger">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="spacer"></div>
+
+      <div class="grid">
+        <div class="col-100">
+          <h1 class="title text-center color-text"> Progetti </h1>
+        </div>
+        <div class="col-100 flex">
+            <img src="immagini/99dev-cattura.PNG" alt="" class="img-progetti-three">
+            <img src="immagini/mysite.PNG" alt="" class="img-progetti">
+            <img src="immagini/othersite.PNG" alt="" class="img-progetti-two">
+        </div>
+      </div>
+
+      <div class="grid grid-footer">
+        <div class="col-60 sma-100 col-one">
+          <div class="grid subgrid-footer">
+            <div class="col-50">
+              <h3 class="logo-subgrid text-3 p-1 mt-0">AC</h3>
+              <p class="paragraph-subgrid p-1 mt-0">ciao sono antonio cuoco e sono un frontend developer,<br>mi piace definirmi un creatore di mondi poichè credo che ogni sito debba rappresentare un mondo</p>
+              <p class="paragraph-subgridTwo"><a href="https://it.freepik.com/foto-gratuito/foto-piatta-e-creativa-della-scrivania-dell-area-di-lavoro_3520026.htm#query=sfondo%20scrivania&position=26&from_view=keyword">ultime due immagini sono di tirachardz</a> su Freepik</p>
+            </div>
+            <div class="col-50 subcol-footer-two">
+              <h3 class="footer-contatti" id="footer-contatti">Modulo Contatti</h3>
+              <label for="" class="label-subCol color-text">Nome:</label>
+              <input type="text" class="input-nome" id="input-nome">
+              <label for="" class="label-subCol color-text">Email:</label>
+              <input type="email" class="input-email" id="input-email">
+              <label for="" class="label-subCol color-text">Messaggio:</label>
+              <textarea name="input-messaggio" id="input-messaggio" placeholder="come posso aiutarti?" cols="30" rows="10" class="input-messaggio"></textarea>
+              <input type="button" value="CONTATTAMI" class="btn-subcol-footer button" id="btn-subcol-footer">
+            </div>
+          </div>
+        </div>
+        <div class="col-40 sma-100">
+    
+          <p class="paragraph-cite text-4xl">Quasi tutte le cose importanti sono state realizzate<br>da chi ha continuato a insistere<br>quando sembrava che non ci fosse speranza<br><cite class="mt-3">DALE CARNEGIE</cite></p>
+    
+        </div>
+      </div>
+    
+    <script>
+      let item = document.querySelector('.icon-hamburger');
+      item.addEventListener("click", function() {
+            document.body.classList.toggle('menu-open');
+      });
+    </script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="progetti-script.js"></script>
+</body>
+</html>
