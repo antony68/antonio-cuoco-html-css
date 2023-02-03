@@ -1,7 +1,7 @@
 let btnOne = document.getElementById("btn-subcol-footer");
-inputNome = document.getElementById("input-nome");
-inputEmail = document.getElementById("input-email");
-inputMessaggio = document.getElementById("input-messaggio");
+let inputNome = document.getElementById("input-nome");
+let inputEmail = document.getElementById("input-email");
+let inputMessaggio = document.getElementById("input-messaggio");
 
 gsap.from(".img-my-self", {x:100});
 gsap.to(".img-my-self", {opacity:1, x:0, duration:1.5});
@@ -84,23 +84,3 @@ window.addEventListener('scroll', function(e) {
   }
 });
 
-btnOne.onclick = () => {
-
-  Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "99devstudio@gmail.com",
-    Password : "89BA68D2499E7932F903DB68BB3FFBEE6B83",
-    To : "99devstudio@mail.com",
-    From : "99devstudio@mail.com",
-    Subject : "richiesta sviluppo sito da: " + inputNome.value,
-    Body : "nome:" + inputNome.value + "<br> email:" + inputEmail.value + "<br> messaggio: " + inputMessaggio.value
-}).then(
-  message => alert(message)
-);
-
-
-}
-
-console.log( [1,2,3].map(num => {if (typeof num === 'number') return;
-return num*2;
-}))
